@@ -1,0 +1,20 @@
+{
+  "name": "site.api",
+  "type": "module",
+  "packageManager": "yarn@4.0.2",
+  "scripts": {
+    "dev": "nodemon ./src/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "volta": {
+    "node": "18.18.2"
+  }
+}
